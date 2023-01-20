@@ -24,8 +24,45 @@
 # upper=int(input("Enter the upper limnit: "))
 #
 # for i in range (lower,upper):
-#     if (i%)
+#     if i>1:
+#             for n in range (2,i):
+#                 if (i%n)==0:
+#                     break
+#             else:
+#                 print (i)
 
 
 
 #.Display Fibonacci series up to 10 terms using for loop
+
+#Write a Python function to find the Max of three numbers.
+# def max(a,b,c):
+#     if a>b:
+#         if a>c:
+#             print (a, ":first number is greater")
+#         else:
+#             if c>a:
+#                 print (c,": third number is greater")
+#     else:
+#         if b>c:
+#             print (b,": second number is greater")
+#         else:
+#             print(c, ":third number is greater")
+#
+# num1=int(input("Enter first number: "))
+# num2=int(input("Enter second number: "))
+# num3=int(input("Enter third number: "))
+# max(num1,num2,num3)
+
+#Write a Python function to calculate the factorial of a number
+def fact(n):
+    f=1
+    for i in range (1,n + 1):
+        f=f*i
+    return(f)
+
+num = int(input("Enter a number: "))
+t=fact(num)
+print(t)
+
+
