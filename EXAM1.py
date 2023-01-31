@@ -6,7 +6,7 @@
 #     print (sum)
 #     num=num+1
 #
-# #Count the total number of digits in a number using while loop
+# 2.Count the total number of digits in a number using while loop
 # print("Count the total number of digits in a number using while loop")
 # numb=int(input("Enter the number: ")) #123
 # count=0
@@ -15,32 +15,32 @@
 #     count+=1 # count=0+1=1 | count=1+1=2 | count=2+1=3
 # print(count) # print count = 3
 #
-# #Display numbers from -10 to -1 using for loop
+# 3.Display numbers from -10 to -1 using for loop
 # print("Display numbers from -10 to -1 using for loop")
-# for i in range (-10,0):     # i=-10         | i=-9
-#     print(i)                # print -10     | i=-9
-#                             # i=-10+1=-9    | i=-9+1
-#
-# #Write a program to display all prime numbers within a range
+for i in range (-10,0):     # i=-10         | i=-9
+    print(i)                # print -10     | i=-9
+                            # i=-10+1=-9    | i=-9+1
+
+# 4.Write a program to display all prime numbers within a range
 # print("Write a program to display all prime numbers within a range")
 # lower=int(input("enter the lower limit: "))
 # upper=int(input("Enter the upper limnit: "))
 #
 # for z in range (lower,upper):
 #     if z>1:
-#             for n in range (2,i):
+#             for n in range (2,z):
 #                 if (z%n)==0:
 #                     break
 #             else:
 #                 print (z)
+
+
+#
+# 5.Display Fibonacci series up to 10 terms using for loop
 #
 #
 #
-# #.Display Fibonacci series up to 10 terms using for loop
-#
-#
-#
-# #Write a Python function to find the Max of three numbers.
+# # 6.Write a Python function to find the Max of three numbers.
 # def max(a,b,c):
 #     if a>b:
 #         if a>c:
@@ -59,15 +59,15 @@
 # num3=int(input("Enter third number: "))
 # max(num1,num2,num3)
 
-#Write a Python function to calculate the factorial of a number
-def fact(m):
-    f=1
-    for i in range (1,m + 1):
-        f=f*i
-    return(f)
-print("Write a Python function to calculate the factorial of a number")
-number = int(input("Enter a number: "))
-t=fact(number)
-print(t)
+# #7.Write a Python function to calculate the factorial of a number
+# def fact(m):
+#     f=1
+#     for i in range (1,m + 1):
+#         f=f*i
+#     return(f)
+# print("Write a Python function to calculate the factorial of a number")
+# number = int(input("Enter a number: "))
+# t=fact(number)
+# print(t)
 
 
